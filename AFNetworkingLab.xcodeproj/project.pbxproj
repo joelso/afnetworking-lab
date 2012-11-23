@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3B0421165E7CD400DA2981 /* TraktAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B0420165E7CD400DA2981 /* TraktAPIClient.m */; };
+		1C8216B6165F720C00A9B15D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8216B5165F720C00A9B15D /* MobileCoreServices.framework */; };
+		1C8216B8165F723100A9B15D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8216B7165F723100A9B15D /* SystemConfiguration.framework */; };
+		1CDB2875165FA9C00029B147 /* ArtWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2874165FA9C00029B147 /* ArtWorkViewController.m */; };
+		1CDB2879165FAA560029B147 /* ArtWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2878165FAA560029B147 /* ArtWork.m */; };
+		1CDB287C165FB0570029B147 /* ArtWorkStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB287B165FB0570029B147 /* ArtWorkStorage.m */; };
 		5D61889D165E6A1500289825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61889C165E6A1500289825 /* UIKit.framework */; };
 		5D61889F165E6A1500289825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61889E165E6A1500289825 /* Foundation.framework */; };
 		5D6188A1165E6A1500289825 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6188A0165E6A1500289825 /* CoreGraphics.framework */; };
@@ -18,13 +24,25 @@
 		5D6188B3165E6A1500289825 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6188B2165E6A1500289825 /* Default-568h@2x.png */; };
 		5D6188B6165E6A1500289825 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6188B4165E6A1500289825 /* MainStoryboard.storyboard */; };
 		5D6188B9165E6A1500289825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6188B8165E6A1500289825 /* ViewController.m */; };
+		8BF38EE9D6824DE8AF1045FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E92E330B7EEE421FB9F22A4A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3B041F165E7CD400DA2981 /* TraktAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraktAPIClient.h; sourceTree = "<group>"; };
+		1C3B0420165E7CD400DA2981 /* TraktAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraktAPIClient.m; sourceTree = "<group>"; };
+		1C8216B5165F720C00A9B15D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1C8216B7165F723100A9B15D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1CDB2873165FA9C00029B147 /* ArtWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkViewController.h; sourceTree = "<group>"; };
+		1CDB2874165FA9C00029B147 /* ArtWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkViewController.m; sourceTree = "<group>"; };
+		1CDB2877165FAA560029B147 /* ArtWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWork.h; sourceTree = "<group>"; };
+		1CDB2878165FAA560029B147 /* ArtWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWork.m; sourceTree = "<group>"; };
+		1CDB287A165FB0570029B147 /* ArtWorkStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkStorage.h; sourceTree = "<group>"; };
+		1CDB287B165FB0570029B147 /* ArtWorkStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkStorage.m; sourceTree = "<group>"; };
+		49191544DDA84EC2B14B7B33 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		5D618898165E6A1500289825 /* AFNetworkingLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D61889C165E6A1500289825 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5D61889E165E6A1500289825 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5D6188A0165E6A1500289825 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D61889C165E6A1500289825 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D61889E165E6A1500289825 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D6188A0165E6A1500289825 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5D6188A4165E6A1500289825 /* AFNetworkingLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFNetworkingLab-Info.plist"; sourceTree = "<group>"; };
 		5D6188A6165E6A1500289825 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D6188A8165E6A1500289825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +55,7 @@
 		5D6188B5165E6A1500289825 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5D6188B7165E6A1500289825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5D6188B8165E6A1500289825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E92E330B7EEE421FB9F22A4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8216B8165F723100A9B15D /* SystemConfiguration.framework in Frameworks */,
+				1C8216B6165F720C00A9B15D /* MobileCoreServices.framework in Frameworks */,
 				5D61889D165E6A1500289825 /* UIKit.framework in Frameworks */,
 				5D61889F165E6A1500289825 /* Foundation.framework in Frameworks */,
 				5D6188A1165E6A1500289825 /* CoreGraphics.framework in Frameworks */,
+				8BF38EE9D6824DE8AF1045FE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +78,12 @@
 		5D61888D165E6A1500289825 = {
 			isa = PBXGroup;
 			children = (
+				1C8216B7165F723100A9B15D /* SystemConfiguration.framework */,
+				1C8216B5165F720C00A9B15D /* MobileCoreServices.framework */,
 				5D6188A2165E6A1500289825 /* AFNetworkingLab */,
 				5D61889B165E6A1500289825 /* Frameworks */,
 				5D618899165E6A1500289825 /* Products */,
+				49191544DDA84EC2B14B7B33 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +101,7 @@
 				5D61889C165E6A1500289825 /* UIKit.framework */,
 				5D61889E165E6A1500289825 /* Foundation.framework */,
 				5D6188A0165E6A1500289825 /* CoreGraphics.framework */,
+				E92E330B7EEE421FB9F22A4A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,7 +114,13 @@
 				5D6188B4165E6A1500289825 /* MainStoryboard.storyboard */,
 				5D6188B7165E6A1500289825 /* ViewController.h */,
 				5D6188B8165E6A1500289825 /* ViewController.m */,
+				1CDB2873165FA9C00029B147 /* ArtWorkViewController.h */,
+				1CDB2874165FA9C00029B147 /* ArtWorkViewController.m */,
 				5D6188A3165E6A1500289825 /* Supporting Files */,
+				1CDB2877165FAA560029B147 /* ArtWork.h */,
+				1CDB2878165FAA560029B147 /* ArtWork.m */,
+				1CDB287A165FB0570029B147 /* ArtWorkStorage.h */,
+				1CDB287B165FB0570029B147 /* ArtWorkStorage.m */,
 			);
 			path = AFNetworkingLab;
 			sourceTree = "<group>";
@@ -96,6 +128,8 @@
 		5D6188A3165E6A1500289825 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C3B041F165E7CD400DA2981 /* TraktAPIClient.h */,
+				1C3B0420165E7CD400DA2981 /* TraktAPIClient.m */,
 				5D6188A4165E6A1500289825 /* AFNetworkingLab-Info.plist */,
 				5D6188A5165E6A1500289825 /* InfoPlist.strings */,
 				5D6188A8165E6A1500289825 /* main.m */,
@@ -117,6 +151,7 @@
 				5D618894165E6A1500289825 /* Sources */,
 				5D618895165E6A1500289825 /* Frameworks */,
 				5D618896165E6A1500289825 /* Resources */,
+				80556D880EF8426CB45928C1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +203,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80556D880EF8426CB45928C1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D618894165E6A1500289825 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -176,6 +228,10 @@
 				5D6188A9165E6A1500289825 /* main.m in Sources */,
 				5D6188AD165E6A1500289825 /* AppDelegate.m in Sources */,
 				5D6188B9165E6A1500289825 /* ViewController.m in Sources */,
+				1C3B0421165E7CD400DA2981 /* TraktAPIClient.m in Sources */,
+				1CDB2875165FA9C00029B147 /* ArtWorkViewController.m in Sources */,
+				1CDB2879165FAA560029B147 /* ArtWork.m in Sources */,
+				1CDB287C165FB0570029B147 /* ArtWorkStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +308,7 @@
 		};
 		5D6188BD165E6A1500289825 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49191544DDA84EC2B14B7B33 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworkingLab/AFNetworkingLab-Prefix.pch";
@@ -263,6 +320,7 @@
 		};
 		5D6188BE165E6A1500289825 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49191544DDA84EC2B14B7B33 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFNetworkingLab/AFNetworkingLab-Prefix.pch";

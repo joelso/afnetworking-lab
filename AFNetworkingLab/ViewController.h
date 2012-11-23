@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <NIAttributedLabel.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate, NIAttributedLabelDelegate>
 
+@property (weak, nonatomic) IBOutlet UIScrollView *showsScrollView;
+@property (weak, nonatomic) IBOutlet UIPageControl *showPageControl;
+- (IBAction)pageChanged:(id)sender;
+-(void)loadShow:(int)index;
 @end
