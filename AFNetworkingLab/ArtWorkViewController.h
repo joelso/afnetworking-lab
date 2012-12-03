@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ArtWorkViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *artistLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end

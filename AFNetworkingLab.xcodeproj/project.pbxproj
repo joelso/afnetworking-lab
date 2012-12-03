@@ -13,6 +13,7 @@
 		1CDB2875165FA9C00029B147 /* ArtWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2874165FA9C00029B147 /* ArtWorkViewController.m */; };
 		1CDB2879165FAA560029B147 /* ArtWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2878165FAA560029B147 /* ArtWork.m */; };
 		1CDB287C165FB0570029B147 /* ArtWorkStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB287B165FB0570029B147 /* ArtWorkStorage.m */; };
+		1CF228ED1668A660001BE76D /* ArtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF228EC1668A660001BE76D /* ArtView.xib */; };
 		5D61889D165E6A1500289825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61889C165E6A1500289825 /* UIKit.framework */; };
 		5D61889F165E6A1500289825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D61889E165E6A1500289825 /* Foundation.framework */; };
 		5D6188A1165E6A1500289825 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6188A0165E6A1500289825 /* CoreGraphics.framework */; };
@@ -38,6 +39,7 @@
 		1CDB2878165FAA560029B147 /* ArtWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWork.m; sourceTree = "<group>"; };
 		1CDB287A165FB0570029B147 /* ArtWorkStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtWorkStorage.h; sourceTree = "<group>"; };
 		1CDB287B165FB0570029B147 /* ArtWorkStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtWorkStorage.m; sourceTree = "<group>"; };
+		1CF228EC1668A660001BE76D /* ArtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtView.xib; sourceTree = "<group>"; };
 		49191544DDA84EC2B14B7B33 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		5D618898165E6A1500289825 /* AFNetworkingLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D61889C165E6A1500289825 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 				5D6188B8165E6A1500289825 /* ViewController.m */,
 				1CDB2873165FA9C00029B147 /* ArtWorkViewController.h */,
 				1CDB2874165FA9C00029B147 /* ArtWorkViewController.m */,
+				1CF228EC1668A660001BE76D /* ArtView.xib */,
 				5D6188A3165E6A1500289825 /* Supporting Files */,
 				1CDB2877165FAA560029B147 /* ArtWork.h */,
 				1CDB2878165FAA560029B147 /* ArtWork.m */,
@@ -198,6 +201,7 @@
 				5D6188B1165E6A1500289825 /* Default@2x.png in Resources */,
 				5D6188B3165E6A1500289825 /* Default-568h@2x.png in Resources */,
 				5D6188B6165E6A1500289825 /* MainStoryboard.storyboard in Resources */,
+				1CF228ED1668A660001BE76D /* ArtView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

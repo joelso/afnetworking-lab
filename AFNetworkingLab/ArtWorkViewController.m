@@ -9,9 +9,13 @@
 #import "ArtWorkViewController.h"
 #import "TraktAPIClient.h"
 #import <AFNetworking.h>
+#import "ArtWork.h"
 
 @interface ArtWorkViewController ()
-
+{
+    NSArray *jsonResponse;
+    ArtWork *artWork;
+}
 @end
 
 @implementation ArtWorkViewController
@@ -39,7 +43,21 @@
     // 5 - Create JSON request operation
     AFJSONRequestOperation* operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON)
                                          {
-                                             NSLog(@"Hämtat: %@", JSON);
+                                             jsonResponse = JSON;
+                                            
+                                             for (NSDictionary* art in jsonResponse)
+                                             {
+                                                 
+                                                 artWork = [[ArtWork alloc] initWithTitle:[art objectForKey:@"title"]
+                                                                               artistName:[art objectForKey:@"artistName"]
+                                                                           mediumThumbUrl:@""
+                                                                                    price:[[art valueForKey:@"price"] intValue]];
+//                                                 [art objectForKey:@"artistName"];
+//                                                  NSLog(@"Artister: %@", [art objectForKey:@"artistName"]);
+                                             }
+
+                                             
+//                                             NSLog(@"Hämtat: %@", JSON);
                                              
                                          } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
                                              // 7 - Request failed block

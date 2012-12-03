@@ -10,12 +10,12 @@
 
 @implementation ArtWork
 
-+(id)artWorkWithTitle:(NSString *)title artistName:(NSString *)artistName mediumThumbUrl:(NSString *)mediumThumbUrl price:(float)price
++(id)artWorkWithTitle:(NSString *)title artistName:(NSString *)artistName mediumThumbUrl:(NSString *)mediumThumbUrl price:(double)price
 {
     return [[self alloc] initWithTitle:title artistName:artistName mediumThumbUrl:mediumThumbUrl price:price];
 }
 
--(id)initWithTitle:(NSString *)title artistName:(NSString *)artistName mediumThumbUrl:(NSString *)mediumThumbUrl price:(float)price
+-(id)initWithTitle:(NSString *)title artistName:(NSString *)artistName mediumThumbUrl:(NSString *)mediumThumbUrl price:(double)price
 {
     if (self = [super init]) {
         _title = title;
@@ -23,6 +23,8 @@
         _mediumThumbUrl = mediumThumbUrl;
         _price = price;
     }
+    
+    NSLog(@" \nTitel: %@,  \n Namn: %@   \n Price: %0.2f", self.title, self.artistName, self.price);
     return self;
 }
 
